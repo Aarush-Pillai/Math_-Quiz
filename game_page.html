@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+		<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>  
+
+    <h4 id = "player1_name"></h4><span id = "player1_score"></span>
+<h4 id = "player2_name"></h4><span id = "player2_score"></span>
+
+<div class="container">
+	<center>
+		<h2 style="color: white;">Answer the problem!</h2>
+
+		<h3 id="questionturn"></h3>
+		<h3 id= "answerturn"></h3>
+		<div id = "output"></div>
+		<br>
+		<br>
+
+		<label>Send You problem: <b style="color: red"></b></label>
+		<br>
+		<br>
+		<br>
+		<input id = "wordinputs" type="text" placeholder="Enter your problem here">
+		<br>
+		<input id=answer type="text" placeholder="Enter the answer for your problem here"> 
+		<br>
+		<br>
+		<button id="HEllo" onclick = "send()">Send</button>
+	</center>
+
+</div>
+<script src="game.js"></script>
+</body>
+</html>
